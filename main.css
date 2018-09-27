@@ -443,8 +443,8 @@ header nav ul li .caret {
 nav form {
     position:relative;
     float: right;
-    width: 20%;
-    margin: 4px 30px 5px 0;
+    width: calc(22.377622377% - 20px);
+    margin: 4px calc(0.874125874% + 10px) 5px 0;
 }
 nav form #search-box {
     padding: 0 2em 0 0.5em;
@@ -462,7 +462,7 @@ nav form #search-btn[type="submit"]{
     float: right;
     padding: 0;
     position: absolute;
-    right: 38px;
+    right: calc(0.81300813% + 0.5em);
     top: 0.35em;
 }
 
